@@ -14,7 +14,7 @@ end
 def greet_crew (crew)
   crew_greetings = []
   crew.each do |member|
-    crew_greetings << ("Hello" + member)
+    crew_greetings << ("Hello " + member)
   end
   crew_greetings
 end
